@@ -17,3 +17,23 @@ body {
   border: 1px solid #ccc;
   border-radius: 10px;
 }
+
+.box-1 {
+  /* Horizontal Offset, Vertical Offset, Blur Radius, Spread Radius, Color */
+  /* box-shadow: 5px 6px 8px 6px #000; */
+  box-shadow: 10px 10px 10px 2px #000;
+}
+
+.box-2 {
+  /* Horizontal Offset, Vertical Offset, Blur Radius, Spread Radius, Color */
+  /* box-shadow: 5px 6px 8px 6px #000; */
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.box-3 {
+  /* Horizontal Offset, Vertical Offset, Blur Radius, Spread Radius, Color */
+  /* box-shadow: 5px 6px 8px 6px #000; */
+  box-shadow:
+    10px 10px 10px 2px rgba(0, 0, 0, 0.5),
+    0 10px 5px red;
+}
